@@ -1,0 +1,34 @@
+.compraFinal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 70px;
+    &__message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+        padding: 5px 5px 15px 5px;
+        border-radius: 5px;
+        margin-top: 20px;
+        box-shadow: 0.3px 0.3px 3px 1.5px rgb(173, 173, 173);
+        & p {
+            text-align: center;
+            width: 80%;
+        }
+        & a {
+            display: flex;
+            justify-content: center;
+            width: 97%;
+            color: white;
+            text-decoration: none;
+            padding: 7px 0px 7px 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-radius: 5px;
+            background: black;
+        }
+    }
+}

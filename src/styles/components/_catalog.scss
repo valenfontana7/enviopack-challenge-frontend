@@ -1,0 +1,93 @@
+.catalog {
+    width: 50%;
+    &__orderBy {
+        display: flex;
+        flex-direction: column;
+    }
+    &__search {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__searchInput {
+        width: 200px;
+        height: 25px;
+        padding: 3px 5px;
+        margin-top: auto;
+        background: rgb(238, 238, 238);
+        border-color: rgb(211, 211, 211);
+        border-width: 1px;
+        border-radius: 5px;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__orderByLabel {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+        color: rgb(167, 166, 166);
+        margin-bottom: 5px;
+    }
+    &__orderBySelect {
+        padding: 7px;
+        border-radius: 5px;
+        background: rgb(238, 238, 238);
+        border-color: rgb(211, 211, 211);
+    }
+    &__productList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+        list-style: none;
+    }
+    &__productCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 32%;
+        height: 320px;
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        box-shadow: 0.3px 0.3px 3px 1px grey;
+    }
+    &__productImage {
+        width: 170px;
+    }
+    &__productName {
+        width: 85%;
+        margin: 0;
+        text-align: center;
+    }
+    &__productBtn {
+        width: 85%;
+        height: 30px;
+        border-style: none;
+        cursor: pointer;
+        background: black;
+        color: white;
+    }
+    &__productBtnLink {
+        width: 85%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: black;
+        color: white;
+    }
+    &__pagination {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,92 @@
+.carrito {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 70px;
+    &__list {
+        display: flex;
+        width: 50%;
+        padding: 0;
+        flex-direction: column;
+        list-style: none;
+    }
+    &__item {
+        display: flex;
+        margin-top: 15px;
+        padding: 10px;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0.3px 0.3px 3px 1.5px rgb(173, 173, 173);
+        & img {
+            width: 80px;
+        }
+    }
+    &__total {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 0.3px 0.3px 3px 1.5px rgb(173, 173, 173);
+        & p:first-of-type {
+            margin-left: 20px;
+        }
+        & p:last-of-type {
+            margin-right: 20px;
+        }
+    }
+    &__itemContent {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 70px;
+        padding: 0px 10px;
+        align-items: center;
+        background: rgb(236, 236, 236);
+        border-radius: 5px;
+        & div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100px;
+        }
+    }
+    &__removeBtn {
+        background: black;
+        cursor: pointer;
+        color: white;
+        border-style: none;
+        font-size: 14px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    &__buttonGroup {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__buttonBack {
+        background: black;
+        text-decoration: none;
+        font-size: 14px;
+        border-style: none;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        padding: 7px;
+        color: white;
+    }
+    &__buttonSubmit {
+        background: black;
+        border-style: none;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        padding: 7px;
+        color: white;
+    }
+}
